@@ -1,0 +1,17 @@
+{
+  "name": "calcite-icons-react",
+  "version": "0.1.0",
+  "description": "Calcite Icons for React",
+  "keywords": ["calcite", "react", "icons"],
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es.js",
+  "scripts": {
+    "prepublish": "cd .. && npm run build"
+  },
+  "license": "Apache-2.0",
+  "author": "Esri PS",
+  "contributors": "Josh Peterson <jpeterson@esri.com>",
+  "peerDependencies": {
+    "react": "^16.0.0"
+  }
+}
